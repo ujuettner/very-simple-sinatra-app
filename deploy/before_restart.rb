@@ -1,1 +1,1 @@
-File.open("/tmp/OUT", "w") { |file| file.write(node.inspect) }
+open("/tmp/OUT", "w") { |f| f.puts(node.inspect) }
